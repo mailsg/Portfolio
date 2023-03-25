@@ -153,7 +153,106 @@ li {
 
 /* works section */
 
+button {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.card-body button {
+  background: #ff6b00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  gap: 10px;
+  width: 135px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
+
+.card button {
+  background: #ff6b00;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 17px;
+  width: 329px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
+
+.about button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 156px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border: none;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
 button:enabled { background-color: #ff6b00; }
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #ff8c40;
+}
+
+button:active:enabled {
+  background-color: #d65c00;
+}
+
+.card-body button:hover:enabled {
+  background: #ffa733;
+}
+
+.card-body button:active:enabled {
+  background: #d65c00;
+}
 
 .grid-container {
   display: grid;
@@ -233,7 +332,7 @@ button:enabled { background-color: #ff6b00; }
 .card-body p {
   width: 327px;
   height: 147px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -256,7 +355,7 @@ button:enabled { background-color: #ff6b00; }
   flex: none;
   order: 2;
   flex-grow: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -320,29 +419,6 @@ button:enabled { background-color: #ff6b00; }
   flex-grow: 0;
 }
 
-.card-body button {
-  background: #ff6b00;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  padding: 12px;
-  gap: 10px;
-  width: 135px;
-  height: 48px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  border: none;
-}
-
 /* card section */
 .card {
   display: flex;
@@ -377,7 +453,7 @@ button:enabled { background-color: #ff6b00; }
 .card p {
   width: 286px;
   height: 99px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   line-height: 25px;
   color: #fff;
   flex: none;
@@ -389,12 +465,12 @@ button:enabled { background-color: #ff6b00; }
   display: flex;
   flex-direction: row;
   gap: 12px;
-  width: 247px;
+  width: 285px;
   height: 40px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   color: #fff;
 }
 
@@ -436,24 +512,12 @@ button:enabled { background-color: #ff6b00; }
   flex-grow: 0;
 }
 
-.card button {
-  background: #ff6b00;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  padding: 17px;
-  width: 329px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  border: none;
+.card button:hover:enabled {
+  background: #e55e00;
+}
+
+.card button:active:enabled {
+  background: #d65c00;
 }
 
 /* about section */
@@ -477,7 +541,7 @@ button:enabled { background-color: #ff6b00; }
   justify-content: center;
   align-items: center;
   color: #ff6b00;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
@@ -492,56 +556,21 @@ button:enabled { background-color: #ff6b00; }
   flex-direction: row;
   justify-content: center;
   color: #f4f5f7;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  letter-spacing: 1px;
+  line-height: 30px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.about button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 156px;
-  height: 48px;
-  background: #ff6b00;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
-
-.about button:hover,
-.about button:active {
+.about button:hover:enabled {
   background: #ff8c40;
-  cursor: pointer;
 }
 
-.card button:hover,
-.card button:active {
-  background: #e55e00;
-  cursor: pointer;
-}
-
-.card-body button:hover {
-  background: #ffa733;
-  cursor: pointer;
-}
-
-.card-body button:active {
+.about button:active:enabled {
   background: #d65c00;
 }
 
