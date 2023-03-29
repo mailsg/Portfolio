@@ -4,23 +4,29 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper {
+  width: 375px;
+}
+
 li {
   list-style-type: none;
 }
 
 /* navbar styles */
 .navbar {
-  width: 100%;
+  width: 375px;
   height: auto;
   padding: 10px 12px;
-  left: 0%;
-  right: 0%;
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  position: absolute;
   flex-wrap: wrap;
   margin-right: 100px;
 }
@@ -629,4 +635,95 @@ button:active:enabled {
   position: relative;
   background: #1c1a19;
   justify-content: space-around;
+}
+
+/*Contact form section*/
+
+.contactFormSec {
+  width: 375px;
+  background-color: white;
+  
+}
+
+form {
+  margin: 24px;
+}
+
+.body-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-area > div {
+  margin-bottom: 170px;
+
+}
+
+.text-field {
+  display: block;
+  margin-bottom: 10px;
+  margin: 10px 0px 0px 10px;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid #DBD8D7;
+  outline: none;font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: #979493;
+
+}
+
+#short-writeup {
+  border-bottom: none;
+  background-color: #FBF8F7;
+  padding: 0px;
+  padding-left: 14px;
+  margin-top: 20px;
+}
+
+.contactFormSec_para {
+  display: flex;
+  justify-content: center;
+}
+
+.contactFormSec_para > p {
+  width: 327px;
+  height: 216px;
+  padding: 69px 24px 119px 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+
+}
+
+.form-button{
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-btn {
+  margin-bottom: 60px;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #ff6b00;
+  margin-top: 12px;
+  border: none;
+  outline: none;
 }
