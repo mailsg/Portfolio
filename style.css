@@ -634,3 +634,17 @@ button:active:enabled {
 .horizontal-line {
   border-bottom: 2px solid rgb(243, 240, 240);
 }
+
+.flex-container-row {
+  display: flex;
+}
+
+
+.mob-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #dfe1e6;
+  margin-top: 225px;
+  margin-bottom: 26px;
+}
