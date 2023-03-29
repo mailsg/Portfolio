@@ -636,7 +636,6 @@ button:active:enabled {
   background: #1c1a19;
   justify-content: space-around;
 }
-<<<<<<< HEAD
 
 /*Contact form section*/
 
@@ -727,7 +726,7 @@ form {
   margin-top: 12px;
   border: none;
   outline: none;
-=======
+}
 /* added by habtamu alemayehu */
 .horizontal-line {
   border-bottom: 2px solid rgb(243, 240, 240);
@@ -737,7 +736,6 @@ form {
   display: flex;
 }
 
-
 .mob-footer {
   display: flex;
   justify-content: center;
@@ -745,5 +743,4 @@ form {
   border-top: 1px solid #dfe1e6;
   margin-top: 225px;
   margin-bottom: 26px;
->>>>>>> add_footer
 }
