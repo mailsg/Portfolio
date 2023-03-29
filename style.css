@@ -7,7 +7,7 @@
 body {
   display: flex;
   justify-content: center;
-
+  background-color: #E5E5E5;
 }
 
 .wrapper {
@@ -147,6 +147,7 @@ li {
 
 .image-icons {
   display: flex;
+  color: black;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -320,6 +321,7 @@ button:active:enabled {
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: white;
 }
 
 .card-body {
@@ -637,10 +639,11 @@ button:active:enabled {
   justify-content: space-around;
 }
 
-/*Contact form section*/
+/*Contact form section added by Charles Andrews*/
 
 .contactFormSec {
   width: 375px;
+  height: 820px;
   background-color: white;
   
 }
@@ -674,10 +677,9 @@ form {
   width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: center;  
   color: #979493;
-
+  font-style: italic;
 }
 
 #short-writeup {
@@ -714,7 +716,7 @@ form {
 
 .about-me-btn {
   margin-bottom: 60px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -727,10 +729,8 @@ form {
   border: none;
   outline: none;
 }
+
 /* added by habtamu alemayehu */
-.horizontal-line {
-  border-bottom: 2px solid rgb(243, 240, 240);
-}
 
 .flex-container-row {
   display: flex;
@@ -741,6 +741,29 @@ form {
   justify-content: center;
   width: 100%;
   border-top: 1px solid #dfe1e6;
-  margin-top: 225px;
+  margin-top: 0px;
   margin-bottom: 26px;
+}
+
+.headline_footer {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 0px;
+  padding: 15px;
+}
+
+.footer_div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 18px; 
+}
+
+.footer_div > div {
+  width: 134px;
+  height: 5px;
+  background: #0D151E;
+  border-radius: 10px;
 }

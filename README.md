@@ -1,6 +1,3 @@
-
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -55,7 +52,7 @@
 
 
 - **Mobile Version**
-- **Github Flow**
+- **Skills Section**
 - **Linter for HTML-CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -120,6 +117,14 @@ To run the project, execute the following command:
 
 - GitHub: [@mailsg](https://github.com/mailsg)
 
+👤 **Charles**
+
+- GitHub: [@forLoop94](https://github.com/forLoop94)
+
+👤 **Habtamu**
+
+- GitHub: [@Benawi](https://github.com/Benawi)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +133,8 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **About Section**
-- [ ] **Work Section**
+- [ ] **Functional Components**
+- [ ] **Responsive Version**
 - [ ] **Desktop Version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
