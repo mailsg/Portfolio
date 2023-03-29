@@ -630,3 +630,7 @@ button:active:enabled {
   background: #1c1a19;
   justify-content: space-around;
 }
+/* added by habtamu alemayehu */
+.horizontal-line {
+  border-bottom: 2px solid rgb(243, 240, 240);
+}
