@@ -7,7 +7,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .wrapper {
@@ -639,13 +639,12 @@ button:active:enabled {
   justify-content: space-around;
 }
 
-/*Contact form section added by Charles Andrews*/
+/* Contact form section added by Charles Andrews */
 
 .contactFormSec {
   width: 375px;
   height: 800px;
   background-color: white;
-  
 }
 
 form {
@@ -664,27 +663,25 @@ form {
 .text-field {
   display: block;
   margin: 10px 10px;
-  padding: 0px;
+  padding: 0;
   border: none;
-  border-bottom: 2px solid #DBD8D7;
+  border-bottom: 2px solid #d8d8d7;
   outline: none;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   width: 90%;
-  display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   color: #979493;
-  font-style: normal;
 }
 
 #short-writeup {
   border-bottom: none;
-  background-color: #FBF8F7;
-  padding: 0px;
+  background-color: #fbf8f7;
+  padding: 0;
   padding-left: 14px;
   margin-top: 20px;
 }
@@ -702,15 +699,15 @@ form {
   height: 216px;
   padding: 69px 24px 119px 24px;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.form-button{
+.form-button {
   display: flex;
   justify-content: center;
 }
@@ -718,20 +715,18 @@ form {
 .about-me-btn {
   margin-bottom: 60px;
   margin-top: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-style: normal;
   padding: 12px;
   background: #ff6b00;
-  margin-top: 12px;
   border: none;
   outline: none;
 }
@@ -757,7 +752,7 @@ form {
   justify-content: center;
   width: 100%;
   border-top: 1px solid #dfe1e6;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 26px;
 }
 
@@ -766,7 +761,7 @@ form {
   display: flex;
   justify-content: center;
   background-color: white;
-  margin: 0px;
+  margin: 0;
   padding: 15px;
 }
 
@@ -774,12 +769,12 @@ form {
   display: flex;
   justify-content: center;
   background-color: white;
-  padding: 18px; 
+  padding: 18px;
 }
 
 .footer_div > div {
   width: 134px;
   height: 5px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
