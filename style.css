@@ -4,23 +4,29 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+
+.wrapper {
+  width: 375px;
+}
+
 li {
   list-style-type: none;
 }
 
 /* navbar styles */
 .navbar {
-  width: 100%;
+  width: 375px;
   height: auto;
   padding: 10px 12px;
-  left: 0%;
-  right: 0%;
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  position: absolute;
   flex-wrap: wrap;
   margin-right: 100px;
 }
@@ -141,6 +147,7 @@ li {
 
 .image-icons {
   display: flex;
+  color: black;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -314,6 +321,7 @@ button:active:enabled {
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: white;
 }
 
 .card-body {
@@ -629,4 +637,144 @@ button:active:enabled {
   position: relative;
   background: #1c1a19;
   justify-content: space-around;
+}
+
+/* Contact form section added by Charles Andrews */
+
+.contactFormSec {
+  width: 375px;
+  height: 800px;
+  background-color: white;
+}
+
+form {
+  margin: 0 24px;
+}
+
+.body-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-area > div {
+  margin-bottom: 170px;
+}
+
+.text-field {
+  display: block;
+  margin: 10px 10px;
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid #d8d8d7;
+  outline: none;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  color: #979493;
+}
+
+#short-writeup {
+  border-bottom: none;
+  background-color: #fbf8f7;
+  padding: 0;
+  padding-left: 14px;
+  margin-top: 20px;
+}
+
+.contactFormSec_para {
+  display: flex;
+  justify-content: center;
+}
+
+.contactFormSec_para > p {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 360px;
+  height: 216px;
+  padding: 69px 24px 119px 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-btn {
+  margin-bottom: 60px;
+  margin-top: 24px;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  background: #ff6b00;
+  border: none;
+  outline: none;
+}
+
+.about-me-btn:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
+}
+
+.about-me-btn:active {
+  background-color: #e05304;
+}
+
+/* added by habtamu alemayehu */
+
+.flex-container-row {
+  display: flex;
+}
+
+.mob-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #dfe1e6;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.headline_footer {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+.footer_div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 18px;
+}
+
+.footer_div > div {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
 }
