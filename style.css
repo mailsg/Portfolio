@@ -643,13 +643,13 @@ button:active:enabled {
 
 .contactFormSec {
   width: 375px;
-  height: 820px;
+  height: 800px;
   background-color: white;
   
 }
 
 form {
-  margin: 24px;
+  margin: 0 24px;
 }
 
 .body-area {
@@ -659,17 +659,16 @@ form {
 
 .body-area > div {
   margin-bottom: 170px;
-
 }
 
 .text-field {
   display: block;
-  margin-bottom: 10px;
-  margin: 10px 0px 0px 10px;
-  padding: 14px;
+  margin: 10px 10px;
+  padding: 0px;
   border: none;
   border-bottom: 2px solid #DBD8D7;
-  outline: none;font-family: 'Inter';
+  outline: none;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -679,7 +678,7 @@ form {
   align-items: center;
   justify-content: center;  
   color: #979493;
-  font-style: italic;
+  font-style: normal;
 }
 
 #short-writeup {
@@ -696,17 +695,19 @@ form {
 }
 
 .contactFormSec_para > p {
-  width: 327px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 360px;
   height: 216px;
   padding: 69px 24px 119px 24px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172B4D;
-
 }
 
 .form-button{
@@ -716,18 +717,33 @@ form {
 
 .about-me-btn {
   margin-bottom: 60px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
+  margin-top: 24px;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
   padding: 12px;
   background: #ff6b00;
   margin-top: 12px;
   border: none;
   outline: none;
+}
+
+.about-me-btn:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
+}
+
+.about-me-btn:active {
+  background-color: #e05304;
 }
 
 /* added by habtamu alemayehu */
