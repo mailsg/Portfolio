@@ -663,7 +663,7 @@ form {
 .text-field {
   display: block;
   margin: 10px 10px;
-  padding: 0;
+  padding-left: 15px;
   border: none;
   border-bottom: 2px solid #d8d8d7;
   outline: none;
@@ -676,6 +676,24 @@ form {
   align-items: center;
   justify-content: center;
   color: #979493;
+}
+
+.text-field-area {
+  display: block;
+  margin: 10px 10px;
+  padding-left: 15px;
+  border: none;
+  border-bottom: 2px solid #d8d8d7;
+  outline: none;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f7;
 }
 
 #short-writeup {
