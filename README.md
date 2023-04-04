@@ -126,6 +126,10 @@ To run the project, execute the following command:
 - GitHub: [@Benawi](https://github.com/Benawi)
 
 
+👤 **Ceylene**
+
+- GitHub: [@CELYNEBIRUNGI](https://github.com/CELYNEBIRUNGI)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

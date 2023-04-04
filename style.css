@@ -663,7 +663,8 @@ form {
 .text-field {
   display: block;
   margin: 10px 10px;
-  padding: 0;
+  padding-left: 15px;
+  padding-bottom: 14px;
   border: none;
   border-bottom: 2px solid #d8d8d7;
   outline: none;
@@ -676,6 +677,24 @@ form {
   align-items: center;
   justify-content: center;
   color: #979493;
+}
+
+.text-field-area {
+  display: block;
+  margin: 10px 10px;
+  padding-top: 14px;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  border: none;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f7;
 }
 
 #short-writeup {
@@ -734,11 +753,12 @@ form {
 .about-me-btn:hover {
   background: #fff5e1;
   color: #f55800;
-  border: 2px solid #f55800;
+  border: 1px solid #f55800;
 }
 
 .about-me-btn:active {
   background-color: #e05304;
+  color: #f4f1f0;
 }
 
 /* added by habtamu alemayehu */
