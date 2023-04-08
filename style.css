@@ -14,6 +14,11 @@ body {
 /** Style for DESKTOP */
 
 @media only screen and (min-width: 768px) {
+  body {
+    width: 1575px;
+    padding: 0;
+  }
+
   button {
     font-family: 'Crete Round', sans-serif;
     font-weight: 700;
@@ -40,13 +45,13 @@ body {
   /** NAVBAR STYLE */
 
   .navbar {
-    width: 100%;
+    width: 1575px;
     height: 80px;
     left: 0;
     top: 0;
     right: 100px;
     position: absolute;
-    padding: 20px 60px;
+    padding: 20px 95px;
     background: #3c3a39;
     display: flex;
     justify-content: space-between;
@@ -95,14 +100,13 @@ body {
 
   .head_class {
     background-image: url(images/Illustration-header@2x.svg);
-    width: 105%;
+    width: 1575px;
     background-repeat: no-repeat;
-    background-position: 1032px -59px;
+    background-position: 1088px -59px;
     background-size: contain;
     top: 72px;
     left: 0;
     background-color: black;
-    height: -1px;
     position: absolute;
     padding: 206px 136px;
   }
@@ -130,7 +134,7 @@ body {
     order: 0;
     flex-grow: 0;
     margin-top: -120px;
-    margin-left: -125px;
+    margin-left: -85px;
   }
 
   .h4 {
@@ -150,7 +154,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: -85px;
-    margin-left: -120px;
+    margin-left: -85px;
   }
 
   .p {
@@ -168,7 +172,7 @@ body {
     order: 2;
     flex-grow: 0;
     margin-top: -35px;
-    margin-left: -120px;
+    margin-left: -85px;
   }
 
   ul.image-icons {
@@ -176,7 +180,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: -30px;
-    margin-left: -120px;
+    margin-left: -100px;
     position: absolute;
   }
 
@@ -237,6 +241,8 @@ body {
     grid-template-rows: auto;
     grid-gap: 50px;
     background: white;
+    margin-right: 175px;
+    margin-left: 40px;
   }
 
   section.works .grid-container {
@@ -263,7 +269,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 125px;
+    margin-left: 175px;
     margin-top: 130px;
   }
 
@@ -485,12 +491,13 @@ body {
     height: 256px;
     align-items: center;
     text-align: left;
-    font-family: 'Inter', sans-serif, serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #262626;
+    padding-left: 35px;
   }
 
   .about p {
@@ -509,7 +516,7 @@ body {
     order: 1;
     flex-grow: 0;
     margin-top: 175px;
-    margin-left: 125px;
+    margin-left: 175px;
   }
 
   #card1 p {
@@ -572,7 +579,7 @@ body {
     position: absolute;
     width: 369px;
     height: 58px;
-    left: 130px;
+    left: 170px;
     top: 1953px;
     background: #f55800;
     display: flex;
@@ -675,7 +682,7 @@ body {
     color: #fff;
     position: absolute;
     margin-top: 355px;
-    margin-left: 125px;
+    margin-left: 170px;
   }
 
   .about button:hover:enabled {
@@ -688,10 +695,10 @@ body {
 
   .divider2 > img {
     position: absolute;
-    width: 1265px;
+    width: 1200px;
     height: 0;
     top: 3150px;
-    left: 125px;
+    left: 160px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -707,7 +714,7 @@ body {
     grid-template-rows: repeat(3, auto);
     grid-gap: 10rem;
     margin-top: 685px;
-    margin-left: 110px;
+    margin-left: 145px;
   }
 
   .desktop_skill-list {
