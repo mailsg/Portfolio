@@ -30,12 +30,15 @@ body {
     background: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
+    transform: scale(0.9);
   }
 
   button:active {
     background-color: #e05304;
     color: #f4f1f0;
   }
+
+
 
   /** NAVBAR STYLE */
 
