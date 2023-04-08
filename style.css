@@ -30,6 +30,7 @@ body {
     background: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
+    transform: scale(0.9);
   }
 
   button:active {
@@ -205,7 +206,7 @@ body {
     flex-grow: 0;
     margin-top: -35px;
     margin-left: -120px;
-    animation: fade-in 0.8s alternate;
+    animation: color-change 0.9s infinite alternate;
   }
 
   .p:hover {
@@ -337,6 +338,7 @@ body {
     flex-grow: 0;
     margin-left: -200px;
     margin-bottom: 100px;
+    animation: fade-in 0.8s alternate;
   }
 
   section.works .grid-container .imgdiv {
