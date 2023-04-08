@@ -131,6 +131,23 @@ body {
     flex-grow: 0;
     margin-top: -120px;
     margin-left: -125px;
+    transition: all 0.5s ease-in;
+    animation: spin 1s linear 1;
+  }
+
+  .h1:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .h4 {
@@ -151,6 +168,25 @@ body {
     align-items: center;
     margin-top: -85px;
     margin-left: -120px;
+    animation: color-change 0.5s infinite alternate;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: #edda0d;
+    }
+
+    25% {
+      color: #14932f;
+    }
+
+    75% {
+      color: #1e1868;
+    }
+
+    100% {
+      color: #f3f4f7;
+    }
   }
 
   .p {
@@ -169,6 +205,23 @@ body {
     flex-grow: 0;
     margin-top: -35px;
     margin-left: -120px;
+    animation: fade-in 0.8s alternate;
+  }
+
+  .p:hover {
+    cursor: pointer;
+    color: #ff6b00;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 1;
+      color: #ff6b00;
+    }
+
+    100% {
+      opacity: 0;
+    }
   }
 
   ul.image-icons {
