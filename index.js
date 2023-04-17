@@ -1,27 +1,5 @@
 const mobileFrame = document.querySelector('[main_page]');
 
-// Add click event listener to each navigation link
-// const portfolioLink = document.querySelector('#portfolio-link');
-// const aboutLink = document.querySelector('#about-link');
-// const contactLink = document.querySelector('#contact-link');
-// portfolioLink.addEventListener('click', () => {
-//   document.querySelector('#work-link').scrollIntoView({
-//     behavior: 'smooth'
-//   });
-// });
-
-// aboutLink.addEventListener('click', () => {
-//   document.querySelector('#about_link').scrollIntoView({
-//     behavior: 'smooth'
-//   });
-// });
-
-// contactLink.addEventListener('click', () => {
-//   document.querySelector('#contact_link').scrollIntoView({
-//     behavior: 'smooth'
-//   });
-// });
-
 // Adding functionality to mobile menu
 const hamburgerButton = document.querySelector('[hb_menu_list]');
 
