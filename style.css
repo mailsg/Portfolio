@@ -689,6 +689,8 @@ body {
   #card5 ul li,
   #card6 ul li {
     display: flex;
+    width: -webkit-min-content;
+    width: -moz-min-content;
     width: min-content;
     height: 40px;
     background: rgba(255, 255, 255, 0.24);
@@ -1790,17 +1792,6 @@ body {
     font-family: 'Inter', sans-serif;
     cursor: pointer;
   }
-
-  #custom-modal {
-    width: 375px;
-    height: 755px;
-    background-color: #3c3a39;
-    position: fixed;
-    top: 0;
-    padding: 20px;
-    z-index: 1;
-  }
-
  
   .menu-content {
     text-decoration: none;
@@ -1816,4 +1807,15 @@ body {
     padding: 5px;
     margin-bottom: 20px;
   }
+
+  #custom-modal {
+    width: 375px;
+    height: 755px;
+    background-color: #3c3a39;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+  }
+
 }
