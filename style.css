@@ -689,6 +689,8 @@ body {
   #card5 ul li,
   #card6 ul li {
     display: flex;
+    width: -webkit-min-content;
+    width: -moz-min-content;
     width: min-content;
     height: 40px;
     background: rgba(255, 255, 255, 0.24);
@@ -1774,17 +1776,12 @@ body {
     display: none;
   }
 
-  /** Styling the Mobile menu modal */
+/* * Styling the Mobile menu modal */
   
-  #custom-modal {
-    width: 375px;
-    height: 755px;
-    background-color: #3c3a39;
-    position: fixed;
-    top: 0;
-    padding: 20px;
-    z-index: 1;
-  }
+  #menu-list {
+    list-style-type: none;
+    margin-top: 20px;
+  } 
 
   #modal-delete {
     display: flex;
@@ -1794,11 +1791,6 @@ body {
     color: #cdcac9;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-  }
-
-  #menu-list {
-    list-style-type: none;
-    margin-top: 20px;
   }
 
   .menu-content {
@@ -1815,4 +1807,15 @@ body {
     padding: 5px;
     margin-bottom: 20px;
   }
+
+  #custom-modal {
+    width: 375px;
+    height: 755px;
+    background-color: #3c3a39;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+  }
+
 }
