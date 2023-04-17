@@ -1774,17 +1774,12 @@ body {
     display: none;
   }
 
-  /** Styling the Mobile menu modal */
-  /*
-  #custom-modal {
-    width: 375px;
-    height: 755px;
-    background-color: #3c3a39;
-    position: fixed;
-    top: 0;
-    padding: 20px;
-    z-index: 1;
-  }
+  /* * Styling the Mobile menu modal */
+  
+  #menu-list {
+    list-style-type: none;
+    margin-top: 20px;
+  } 
 
   #modal-delete {
     display: flex;
@@ -1796,11 +1791,17 @@ body {
     cursor: pointer;
   }
 
-  #menu-list {
-    list-style-type: none;
-    margin-top: 20px;
-  }*/
+  #custom-modal {
+    width: 375px;
+    height: 755px;
+    background-color: #3c3a39;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+  }
 
+ 
   .menu-content {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
