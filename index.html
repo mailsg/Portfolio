@@ -10,9 +10,11 @@
                 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
             </style>
+            
         </head>
     <body>
             <!-- navbar section -->
+            <main main_page>
             <div class="wrapper">
                     <section>
                             <header class="navbar">
@@ -22,13 +24,13 @@
                                 <nav>
                                     
                                     <ul id="desktop_menu_list">
-                                        <li><a class="menu_link" href="#work">Portfolio</a></li>
-                                        <li><a class="menu_link" href="#about">About</a></li>
-                                        <li><a class="menu_link" href="#contact_section">Contact</a></li>
-                                        <li><a class="menu_link" href="#email" ><img src="images/mail_img.png" alt="mail image"></a></li>
+                                        <li><a class="menu_link" href="#work_link" id="portfolio_link_">Portfolio</a></li>
+                                        <li><a class="menu_link" href="#about_link" id="about_link_">About</a></li>
+                                        <li><a class="menu_link" href="#contact_link" id="contact_link_">Contact</a></li>
+                                        <li><a class="menu_link" href="mailto:mailsg0912@gmail.com"><img src="images/mail_img.png" alt="mail image"></a></li>
                                     </ul>
                                     
-                                    <div id="bar">
+                                    <div id="bar" hb_menu_list>
                                         <img src="images/Menu.png" alt="icon">
                                         <img src="images/Menu.png" alt="icon">
                                         <img src="images/Menu.png" alt="icon">
@@ -73,7 +75,10 @@
                         
                     </section>
                     <!-- works section -->
-                    <section class="works">
+
+                    <a id="work-link" href="work-sec"></a>
+
+                    <section class="works" id="work_link">
                             <article class="grid-container">
                                 <h2>My Recent Works</h2>
                                 <div class="divider1">
@@ -279,7 +284,9 @@
                             </article>
                     </section>
                     <!-- about section -->
-                    <section class="about">
+                    <a id="about-link" href="about-sec"></a>
+
+                    <section class="about" id="about_link">
                         <h2>About me</h2>
                             <p>Hi..!! I’m a web developer! I can help you build a product, feature or website. Look 
                                         through some of my work and experience! If you like what 
@@ -354,7 +361,9 @@
 
                     <!--Contact form section added by Celyne Birungi-->
                     
-                    <section class="contactFormSec">    
+                    <a id="contact-link" href="contact-sec"></a>
+
+                    <section class="contactFormSec" id="contact_link">    
                         <div class="body-area"> 
 
                             <div class="contactFormSec_para">   
@@ -409,5 +418,7 @@
                 <!-- end of footer section -->            
             </footer>                   
         </div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
