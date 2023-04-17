@@ -1776,12 +1776,11 @@ body {
     display: none;
   }
 
-/* * Styling the Mobile menu modal */
-  
+  /** Styling the Mobile menu modal */
   #menu-list {
     list-style-type: none;
     margin-top: 20px;
-  } 
+  }
 
   #modal-delete {
     display: flex;
@@ -1817,5 +1816,4 @@ body {
     padding: 20px;
     z-index: 1;
   }
-
 }

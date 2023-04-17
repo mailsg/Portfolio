@@ -1,4 +1,4 @@
-const mobileFrame = document.querySelector("[main_page]");
+const mobileFrame = document.querySelector('[main_page]');
 
 // Add click event listener to each navigation link
 // const portfolioLink = document.querySelector('#portfolio-link');
@@ -23,54 +23,54 @@ const mobileFrame = document.querySelector("[main_page]");
 // });
 
 // Adding functionality to mobile menu
-const hamburgerButton = document.querySelector("[hb_menu_list]");
+const hamburgerButton = document.querySelector('[hb_menu_list]');
 
 const showMobileMenu = () => {
-  const modal = document.createElement("section");
-  modal.id = "custom-modal";
+  const modal = document.createElement('section');
+  modal.id = 'custom-modal';
 
-  const deleteButton = document.createElement("div");
-  deleteButton.textContent = "X";
-  deleteButton.id = "modal-delete";
+  const deleteButton = document.createElement('div');
+  deleteButton.textContent = 'X';
+  deleteButton.id = 'modal-delete';
   modal.appendChild(deleteButton);
 
-  const menuList = document.createElement("ul");
-  menuList.id = "menu-list";
+  const menuList = document.createElement('ul');
+  menuList.id = 'menu-list';
 
-  const listItem1 = document.createElement("li");
-  const portfolio = document.createElement("a");
-  portfolio.href = "#work";
-  portfolio.className = "menu-content";
-  portfolio.textContent = "Portfolio";
+  const listItem1 = document.createElement('li');
+  const portfolio = document.createElement('a');
+  portfolio.href = '#work';
+  portfolio.className = 'menu-content';
+  portfolio.textContent = 'Portfolio';
   listItem1.appendChild(portfolio);
-  portfolio.addEventListener("click", () => {
-    modal.style.visibility = "hidden";
-    const workSection = document.querySelector("#work-link");
-    workSection.scrollIntoView({ behaviour: "smooth" });
+  portfolio.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+    const workSection = document.querySelector('#work-link');
+    workSection.scrollIntoView({ behaviour: 'smooth' });
   });
 
-  const listItem2 = document.createElement("li");
-  const about = document.createElement("a");
-  about.href = "#about";
-  about.className = "menu-content";
-  about.textContent = "About";
+  const listItem2 = document.createElement('li');
+  const about = document.createElement('a');
+  about.href = '#about';
+  about.className = 'menu-content';
+  about.textContent = 'About';
   listItem2.appendChild(about);
-  about.addEventListener("click", () => {
-    modal.style.visibility = "hidden";
-    const aboutSection = document.querySelector("#about-link");
-    aboutSection.scrollIntoView({ behaviour: "smooth" });
+  about.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+    const aboutSection = document.querySelector('#about-link');
+    aboutSection.scrollIntoView({ behaviour: 'smooth' });
   });
 
-  const listItem3 = document.createElement("li");
-  const contact = document.createElement("a");
-  contact.href = "#contact_section";
-  contact.className = "menu-content";
-  contact.textContent = "Contact";
+  const listItem3 = document.createElement('li');
+  const contact = document.createElement('a');
+  contact.href = '#contact_section';
+  contact.className = 'menu-content';
+  contact.textContent = 'Contact';
   listItem3.appendChild(contact);
-  contact.addEventListener("click", () => {
-    modal.style.visibility = "hidden";
-    const contactSection = document.querySelector("#contact-link");
-    contactSection.scrollIntoView({ behaviour: "smooth" });
+  contact.addEventListener('click', () => {
+    modal.style.visibility = 'hidden';
+    const contactSection = document.querySelector('#contact-link');
+    contactSection.scrollIntoView({ behaviour: 'smooth' });
   });
 
   menuList.appendChild(listItem1);
@@ -80,10 +80,10 @@ const showMobileMenu = () => {
   mobileFrame.appendChild(modal);
 
   const removeModal = () => {
-    modal.style.visibility = "hidden";
+    modal.style.visibility = 'hidden';
   };
 
-  deleteButton.addEventListener("click", removeModal);
+  deleteButton.addEventListener('click', removeModal);
 };
 
-hamburgerButton.addEventListener("click", showMobileMenu);
+hamburgerButton.addEventListener('click', showMobileMenu);
