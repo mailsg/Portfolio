@@ -136,8 +136,8 @@ body {
     flex-grow: 0;
     margin-top: -120px;
     margin-left: -125px;
-    transition: all 0.5s ease-in;
-    animation: spin 1s linear 1;
+    /*transition: all 0.5s ease-in;
+    animation: spin 1s linear 1;*/
   }
 
   .h1:hover {
@@ -145,7 +145,7 @@ body {
     color: #fff;
   }
 
-  @keyframes spin {
+  /*@keyframes spin {
     from {
       transform: rotate(0deg);
     }
@@ -153,7 +153,7 @@ body {
     to {
       transform: rotate(360deg);
     }
-  }
+  }*/
 
   .h4 {
     width: 566px;
@@ -173,10 +173,10 @@ body {
     align-items: center;
     margin-top: -85px;
     margin-left: -120px;
-    animation: color-change 0.5s infinite alternate;
+    /*    animation: color-change 0.5s infinite alternate;*/
   }
 
-  @keyframes color-change {
+  /*@keyframes color-change {
     0% {
       color: #edda0d;
     }
@@ -192,7 +192,7 @@ body {
     100% {
       color: #f3f4f7;
     }
-  }
+  }*/
 
   .p {
     grid-row: 2;
@@ -210,7 +210,7 @@ body {
     flex-grow: 0;
     margin-top: -35px;
     margin-left: -120px;
-    animation: color-change 0.9s infinite alternate;
+    /*    animation: color-change 0.9s infinite alternate;*/
   }
 
   .p:hover {
@@ -218,7 +218,7 @@ body {
     color: #ff6b00;
   }
 
-  @keyframes fade-in {
+  /*@keyframes fade-in {
     0% {
       opacity: 1;
       color: #ff6b00;
@@ -227,7 +227,7 @@ body {
     100% {
       opacity: 0;
     }
-  }
+  }*/
 
   ul.image-icons {
     grid-row: 1;
@@ -344,7 +344,7 @@ body {
     flex-grow: 0;
     margin-left: -200px;
     margin-bottom: 100px;
-    animation: fade-in 0.8s alternate;
+    /*    animation: fade-in 0.8s alternate;*/
   }
 
   section.works .grid-container .imgdiv {
@@ -357,7 +357,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    transform: scaleX(1.1);
+    /*    transform: scaleX(1.1);*/
   }
 
   .card-body {
@@ -1778,7 +1778,7 @@ body {
     position: fixed;
     top: 0;
     padding: 20px;
-    z-index: 1;
+    z-index: 1;    
   }
 
   #modal-delete {
