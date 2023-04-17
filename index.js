@@ -1,4 +1,4 @@
-const mobileVersionContainer = document.querySelector('[main_page]');
+const mobileFrame = document.querySelector('[main_page]');
 
 // Add click event listener to each navigation link
 // const portfolioLink = document.querySelector('#portfolio-link');
@@ -23,9 +23,9 @@ const mobileVersionContainer = document.querySelector('[main_page]');
 // });
 
 // Adding functionality to mobile menu
-const menuButton = document.querySelector('[hb_menu_list]');
+const hamburgerButton = document.querySelector('[hb_menu_list]');
 
-const menuDisplay = () => {
+const showMobileMenu = () => {
   const modal = document.createElement('section');
   modal.id = 'custom-modal';
 
@@ -77,7 +77,7 @@ const menuDisplay = () => {
   menuList.appendChild(item2);
   menuList.appendChild(item3);
   modal.appendChild(menuList);
-  mobileVersionContainer.appendChild(modal);
+  mobileFrame.appendChild(modal);
 
   const removeModal = () => {
     modal.style.visibility = 'hidden';
@@ -86,4 +86,4 @@ const menuDisplay = () => {
   deleteButton.addEventListener('click', removeModal);
 };
 
-menuButton.addEventListener('click', menuDisplay);
+hamburgerButton.addEventListener('click', showMobileMenu);
