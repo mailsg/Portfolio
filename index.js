@@ -17,8 +17,8 @@ const workHeaderSubSection = () => {
     </div>`;
   workHeaderSection.appendChild(workHeaderSectionTitle);
 
-  const yogaImageCard = document.createElement('div');
-  yogaImageCard.className = 'works-card';
+  const yogaImageCard = document.createElement('div');  
+  yogaImageCard.className = 'works-card';  
   yogaImageCard.innerHTML = `
     <div class="yoga-placeholder">
       <img src="images/Img Placeholder.png" alt="yoga">
