@@ -1040,10 +1040,7 @@ body {
     line-height: 28px;
     color: #091e42;
     margin-bottom: 30px;
-    font-size: 20px;
-    /*flex: none;
-    order: 1;
-    flex-grow: 0;*/
+    font-size: 20px;    
   }
 
   #competencies {
@@ -1088,11 +1085,7 @@ body {
   p,
   ul {
     margin-bottom: 30px;
-  }
-
-  /*#bold-text {
-    font-size: 3rem;
-  }*/
+  }  
 
   .grid-container {
     display: grid;
@@ -1110,12 +1103,7 @@ body {
 
   .grid-item {
     position: relative;
-  }
-
-  /*.grid-item:hover {
-    transform: scale(1.1);
-    transition: all 2s ease-out;
-  }*/
+  }  
 
   .project-cards-mobile {
     display: none;
