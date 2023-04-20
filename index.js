@@ -228,7 +228,6 @@ prjCards(projectArray);
 workHeaderSection.appendChild(cardsContainer);
 
 const cardButton = document.querySelectorAll('.btn-type-b');
-
 function popupButton(arr, elem) {
   for (let i = 0; i < arr.length; i += 1) {
     const popupBtn = arr[i];

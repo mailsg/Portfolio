@@ -827,7 +827,7 @@ body {
   }
 
   .demoButtons {
-    margin-top: 10px;
+    margin-top: 50%;
     justify-content: flex-start;
   }
 
@@ -846,6 +846,8 @@ body {
     margin-top: 12px;
     border: none;
     outline: none;
+    text-decoration: none;
+    letter-spacing: 2px;
   }
 
   .btn-type-a:hover {
@@ -1698,11 +1700,12 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 12px;
-    gap: 10px;
+    gap: 15px;
     background: #f55800;
     margin-top: 12px;
     border: none;
     outline: none;
+    letter-spacing: 2px;
   }
 
   .btn-type-a:hover {
@@ -1813,7 +1816,7 @@ body {
     padding: 24px;
     background-color: white;
     position: fixed;
-    top: 0;
+    top: 15px;
     z-index: 2;
     margin: 1px 16.5px;
   }
