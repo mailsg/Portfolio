@@ -731,7 +731,7 @@ body {
   }
 
   .side-text {
-    padding-left: 3rem;
+    padding-left: 1rem;
     width: 50%;
     height: 50%;
   }
@@ -827,7 +827,7 @@ body {
   }
 
   .demoButtons {
-    margin-top: 50%;
+    margin-top: 43%;
     justify-content: flex-start;
   }
 
@@ -898,6 +898,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    width: 90%;
   }
 
   .popup-header h3 {
@@ -1811,14 +1812,14 @@ body {
   }
 
   #details-popup {
-    width: 343px;
+    width: 90%;
     height: 620px;
     padding: 24px;
     background-color: white;
     position: fixed;
     top: 15px;
     z-index: 2;
-    margin: 1px 16.5px;
+    margin: 24px 5%;
   }
 
   .popup-header {
