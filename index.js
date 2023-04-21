@@ -22,7 +22,7 @@ const workHeaderSubSection = () => {
   yogaImageCard.innerHTML = `
     <div class="yoga-placeholder">
       <img src="images/yoga-image.png" alt="yoga">
-    </div>
+    
     <h3 id="bold-text" class="flex">Multi-Post Stories</h3>
     <p id="works-description">
       A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -34,8 +34,45 @@ const workHeaderSubSection = () => {
       <li>HTML</li>
       <li>JAVASCRIPT</li>
     </ul>
-    <button type="button" class="btn-type-a flex">See project</button>`;
+    <button type="button" class="btn-type-a flex">See project</button>
+    </div>`;
   workHeaderSection.appendChild(yogaImageCard);
+  // Add event listener to the button
+  const btnTypeAMb = yogaImageCard.querySelector('.btn-type-a');
+  btnTypeAMb.addEventListener('click', () => {
+    // Create the popup modal
+    const popupMb = document.createElement('section');
+    popupMb.id = 'details-popup';
+    popupMb.innerHTML = `
+      <div class="popup-header flex">
+      <h3 class="bold-text">Multi-Post Stories</h3>
+      <button id="popup-close">X</button></div>
+      <ul class="skillset flex popup-skills">
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JAVASCRIPT</li>        
+      </ul>
+      <div class="popup-body flex">
+      <img src="images/Snapshoot Portfolio.png" alt="" class="popup-image">
+      <div class="side-text">
+        <div class="works-description popup-text">A daily selection of privately personalized reads; 
+          no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a standard dummy text.
+        </div>
+        <div class="demoButtons flex">
+          <a href=# class="btn-type-c">See live <img src="images/export-icon.png" alt="" width='13'></a>
+          <a href=# class="btn-type-c">See source <img src="images/github-icon.png" alt="" width='13'></a>
+        </div>
+      </div>  
+      </div>`;
+    mobileFrame.appendChild(popupMb);
+
+    const popupDeleteYogaMb = document.querySelector('#popup-close');
+    const popupBodyYogaMb = document.querySelector('.popup-header');
+    popupDeleteYogaMb.addEventListener('click', () => {
+      popupBodyYogaMb.parentNode.remove();
+    });
+  });
 };
 workHeaderSubSection();
 
@@ -59,6 +96,44 @@ function worksDesktop() {
     </ul>
     <button type="button" class="btn-type-a">See project</button>
   </div>`;
+  // Add event listener to the button
+  const btnTypeA = worksCardDesktop.querySelector('.btn-type-a');
+  btnTypeA.addEventListener('click', () => {
+    // Create the popup modal
+    const popup = document.createElement('section');
+    popup.id = 'details-popup';
+    popup.innerHTML = `
+      <div class="popup-header flex">
+      <h3 class="bold-text">Multi-Post Stories</h3>
+      <button id="popup-close">X</button></div>
+      <ul class="skillset flex popup-skills">
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Bootstrap</li>
+        <li>Ruby</li>
+      </ul>
+      <div class="popup-body flex">
+      <img src="images/Snapshoot Portfolio.png" alt="" class="popup-image">
+      <div class="side-text">
+        <div class="works-description popup-text">A daily selection of privately personalized reads; 
+          no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a standard dummy text.
+        </div>
+        <div class="demoButtons flex">
+          <a href=# class="btn-type-c">See live <img src="images/export-icon.png" alt="" width='13'></a>
+          <a href=# class="btn-type-c">See source <img src="images/github-icon.png" alt="" width='13'></a>
+        </div>
+      </div>  
+      </div>`;
+    mobileFrame.appendChild(popup);
+
+    const popupDeleteYoga = document.querySelector('#popup-close');
+    const popupBodyYoga = document.querySelector('.popup-header');
+    popupDeleteYoga.addEventListener('click', () => {
+      popupBodyYoga.parentNode.remove();
+    });
+  });
+
   workHeaderSection.appendChild(worksCardDesktop);
 }
 worksDesktop();
