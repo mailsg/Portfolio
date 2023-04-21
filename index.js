@@ -98,7 +98,7 @@ function worksDesktop() {
   </div>`;
   // Add event listener to the button
   const btnTypeA = worksCardDesktop.querySelector('.btn-type-a');
-  btnTypeA.addEventListener('click', () => {
+  btnTypeA.addEventListener('click', () => {    
     // Create the popup modal
     const popup = document.createElement('section');
     popup.id = 'details-popup';
@@ -129,7 +129,7 @@ function worksDesktop() {
 
     const popupDeleteYoga = document.querySelector('#popup-close');
     const popupBodyYoga = document.querySelector('.popup-header');
-    popupDeleteYoga.addEventListener('click', () => {
+    popupDeleteYoga.addEventListener('click', () => {      
       popupBodyYoga.parentNode.remove();
     });
   });
@@ -410,3 +410,8 @@ const showMobileMenu = () => {
 };
 
 hamburgerButton.addEventListener('click', showMobileMenu);
+
+//Email validation code below...
+const name = document.querySelectorAll('');
+const email = document.querySelectorAll('');
+const form = document.querySelectorAll('');
