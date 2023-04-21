@@ -148,7 +148,8 @@ cardsContainer.className = 'grid-container';
 const projectArray = [
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -170,7 +171,8 @@ const projectArray = [
 
   {
     name: 'Data Dashboard<br>Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -192,7 +194,8 @@ const projectArray = [
 
   {
     name: '<br>Website Portfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -214,7 +217,8 @@ const projectArray = [
 
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -236,7 +240,8 @@ const projectArray = [
 
   {
     name: 'Data Dashboard<br>Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -258,7 +263,8 @@ const projectArray = [
 
   {
     name: '<br>Website Portfolio',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
@@ -416,3 +422,24 @@ const showMobileMenu = () => {
 };
 
 hamburgerButton.addEventListener('click', showMobileMenu);
+
+//  Email validation code below
+const email = document.querySelector('#email_text');
+const form = document.querySelector('#main_form');
+const msg = document.querySelector('.message');
+
+function isValid(str) {
+  if (str.toLowerCase() !== str) {
+    return false;
+  }
+  return true;
+}
+
+form.addEventListener('submit', (event) => {
+  if (isValid(email.value) === false) {
+    msg.textContent = 'Email must be in lower case';
+    event.preventDefault();
+  } else {
+    msg.textContent = '';
+  }
+});
