@@ -950,6 +950,12 @@ body {
     cursor: pointer;
     left: 77%;
   }
+
+  .all {
+    filter: blur(8px);
+    background: #c1c7d0;
+    -webkit-filter: blur(8px);
+  }
 }
 
 /** Style for MOBILE */
@@ -1927,5 +1933,11 @@ body {
 
   .demoButtons a {
     text-decoration: none;
+  }
+
+  .all {
+    filter: blur(8px);
+    background: #c1c7d0;
+    -webkit-filter: blur(8px);
   }
 }

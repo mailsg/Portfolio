@@ -1,4 +1,5 @@
 const mobileFrame = document.querySelector('[main_page]');
+const header = document.querySelector('.wrapper');
 
 // Pop Up window for projects
 const workHeaderSection = document.querySelector('#work_link');
@@ -63,14 +64,15 @@ const workHeaderSubSection = () => {
           <a href=# class="btn-type-c">See live <img src="images/export-icon.png" alt="" width='13'></a>
           <a href=# class="btn-type-c">See source <img src="images/github-icon.png" alt="" width='13'></a>
         </div>
-      </div>  
+      </div>
       </div>`;
     mobileFrame.appendChild(popupMb);
-
+    header.classList.add('all');
     const popupDeleteYogaMb = document.querySelector('#popup-close');
     const popupBodyYogaMb = document.querySelector('.popup-header');
     popupDeleteYogaMb.addEventListener('click', () => {
       popupBodyYogaMb.parentNode.remove();
+      header.classList.remove('all');
     });
   });
 };
@@ -126,11 +128,13 @@ function worksDesktop() {
       </div>  
       </div>`;
     mobileFrame.appendChild(popup);
+    header.classList.add('all');
 
     const popupDeleteYoga = document.querySelector('#popup-close');
     const popupBodyYoga = document.querySelector('.popup-header');
     popupDeleteYoga.addEventListener('click', () => {
       popupBodyYoga.parentNode.remove();
+      header.classList.remove('all');
     });
   });
 
@@ -332,11 +336,13 @@ function popupButton(arr, elem) {
               </div>
             </div>`;
           mobileFrame.appendChild(featuresContent);
+          header.classList.add('all');
 
           const popupDelete = document.querySelector('#popup-close');
           const popupBody = document.querySelector('.popup-header');
           popupDelete.addEventListener('click', () => {
             popupBody.parentNode.remove();
+            header.classList.remove('all');
           });
         }
       }
