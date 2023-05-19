@@ -147,16 +147,16 @@ cardsContainer.className = 'grid-container';
 
 const projectArray = [
   {
-    name: 'Professional Art<br>Printing Data',
+    name: 'Intl Healthcare<br>Summit : 2023',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+      'This project showcases a website for an event called International Summit on Health & Wellness Tourism 2023.',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
         alt: '',
       },
       desktop: {
-        src: 'images/desktop_img_Placeholder_1.png',
+        src: 'images/Project_Card-1.png',
         alt: '',
       },
     },
@@ -165,21 +165,21 @@ const projectArray = [
       tech2: 'HTML',
       tech3: 'Javascript',
     },
-    'Link to live version': '#',
-    'Link to source': '#',
+    'Link to live version': 'https://mailsg.github.io/Capstone-1/',
+    'Link to source': 'https://github.com/mailsg/Capstone-1/',
   },
 
   {
-    name: 'Data Dashboard<br>Healthcare',
+    name: 'To Do List App',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+      'A tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.<br>&nbsp<br><br>',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
         alt: '',
       },
       desktop: {
-        src: 'images/desktop_img_Placeholder_2.png',
+        src: 'images/Project_Card-2.png',
         alt: '',
       },
     },
@@ -188,21 +188,21 @@ const projectArray = [
       tech2: 'HTML',
       tech3: 'Javascript',
     },
-    'Link to live version': '#',
-    'Link to source': '#',
+    'Link to live version': 'https://mailsg.github.io/dist/',
+    'Link to source': 'https://github.com/mailsg/To-do-list',
   },
 
   {
-    name: '<br>Website Portfolio',
+    name: 'Awesome Books',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry standard.<br>&nbsp',
+      'Web App that displays a list of books and allows to add and remove books from that list. It demonstrates how to manage data using JavaScript.<br>&nbsp',
     'Featured image': {
       mobile: {
         src: 'images/mob_img_1.png',
         alt: '',
       },
       desktop: {
-        src: 'images/desktop_img_Placeholder_3.png',
+        src: 'images/Project_Card-3.png',
         alt: '',
       },
     },
@@ -211,8 +211,8 @@ const projectArray = [
       tech2: 'HTML',
       tech3: 'Javascript',
     },
-    'Link to live version': '#',
-    'Link to source': '#',
+    'Link to live version': 'https://mailsg.github.io/Awesome-Books/',
+    'Link to source': 'https://github.com/mailsg/Awesome-Books/',
   },
 
   {
@@ -337,7 +337,7 @@ function popupButton(arr, elem) {
                 <div class="works-description popup-text">${features.description}</div>
                 <div class="demoButtons flex">
                   <a href=${features['Link to live version']} class="btn-type-a">See live <img src="images/export-icon.png" alt="" width='13'></a>
-                  <a href=${features['Link to live version']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
+                  <a href=${features['Link to source']} class="btn-type-a">See source <img src="images/github-icon.png" alt="" width='13'></a>
                 </div>
               </div>
             </div>`;
