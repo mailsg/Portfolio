@@ -62,12 +62,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
     
-      https://mailsg.github.io
+   [Live Link](https://mailsg.github.io/Portfolio/)
 
 
 ##    Presentation of the Project
       
-      https://www.loom.com/share/91569974e6054ea59eecf7b4838b2e80      
+   [Presentation](https://www.loom.com/share/91569974e6054ea59eecf7b4838b2e80)      
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
