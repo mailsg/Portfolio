@@ -126,22 +126,9 @@ To run the project, execute the following command:
 ## 👥 Author <a name="authors"></a>
 
 
-👤 **Sandeep**
+👤 **Sandeep Ghosh**
 
 - GitHub: [@mailsg](https://github.com/mailsg)
-
-👤 **Charles**
-
-- GitHub: [@forLoop94](https://github.com/forLoop94)
-
-👤 **Habtamu**
-
-- GitHub: [@Benawi](https://github.com/Benawi)
-
-
-👤 **Ceylene**
-
-- GitHub: [@CELYNEBIRUNGI](https://github.com/CELYNEBIRUNGI)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
