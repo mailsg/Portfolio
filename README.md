@@ -129,6 +129,7 @@ To run the project, execute the following command:
 👤 **Sandeep Ghosh**
 
 - GitHub: [@mailsg](https://github.com/mailsg)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sandeep0912)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
